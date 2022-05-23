@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(40, 40, 105);
+    padding: 20px;
+}
+
+.logo{
+    color: white;
+}
+
+.lista-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.link-texto-princ{
+    color: white;
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.grupo-um{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.titulo{
+    font-size: 42px;
+    color: rgb(28, 28, 78);
+}
+
+.link-saiba-mais-princ{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(40, 40, 105);
+}
+
+.conteudo-secundario{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.texto-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo-sec{
+    color: rgb(28, 28, 78);
+}
+
+.conteudo-servicos{
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+    color: white;
+    background-color: rgb(40, 40, 105);
+}
+
+.visual-servicos-hosp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 40, 105);
+}
+
+.img-hosp{
+    width: 120px;
+}
+
+.img-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.comprar-hosp{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.paragrafo-hosp{
+    color: white;
+}
+
+.visual-servicos-pacotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.img-pac{
+    width: 120px;
+}
+
+.paragrafo-pacotes{
+    color: white;
+}
+
+.link-pacotes{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.link-roteiros{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.visual-servicos-roteiros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.img-rot{
+    width: 120px;
+}
+
+.paragrafo-roteiros{
+    color: white;
+}
+
+.planos-todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 80px;
+}
+
+.texto-plans, .texto-plan-sec, .texto-plan-terc{
+    font-size: 30px;
+    color: black;
+}
+
+.conteudo-menu-planos, .conteudo-menu-planos-sec, .conteudo-menu-planos-terc{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.conteudo-planos-principal, .conteudo-planos-secundario, .conteudo-planos-terc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid black;
+    padding: 30px;
+}
+
+.link-saiba-mais, .link-sec, .link-terc{
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(40, 40, 105);
+}
+
+.menu-planos, .menu-plan-sec, .menu-plan-terc{
+    list-style: circle;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 100px;
+    background-color: rgb(40, 40, 105);
+}
+
+.paragrafo-rodape{
+    color: white;
+}
